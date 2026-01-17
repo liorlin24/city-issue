@@ -563,7 +563,8 @@ form option {
   .container,
   .primary_container,
   #form,
-  #check-status-form {
+  #check-status-form,
+  .tables-container {
     width: 92%;
 
     min-width: 92% !important;
@@ -576,18 +577,10 @@ form option {
 
     height: auto !important;
   }
-  .trash_waste_schedule table {
-    width: 92%;
-
-    min-width: 92% !important;
-
-    margin: 20px auto;
-
-    padding: 15px;
-
-    box-sizing: border-box;
-
-    height: auto !important;
+  .tables {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 50%;
   }
 
   .form-group {
