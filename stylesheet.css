@@ -412,7 +412,7 @@ form option {
     min-width: unset;
     gap: 0;
     height: 34px;
-    overflow: hidden;
+    overflow: scroll;
     transition: height 0.3s ease-in;
   }
 
@@ -577,3 +577,4 @@ form option {
     background-attachment: fixed !important;
   }
 }
+
